@@ -23,11 +23,6 @@ var swiper = new Swiper('.presentation', {
     loop: true,
     fade: true,
     grabCursor: true,
-
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
     navigation: {
         prevEl: '.swiper-button-prev',
         nextEl: '.swiper-button-next'
